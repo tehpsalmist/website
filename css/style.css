@@ -13,7 +13,12 @@ body {
 }
 
 .title-super {
-    font-size: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title-sub {
+  text-align: center;
 }
 
 .title-logo {
@@ -32,4 +37,24 @@ hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 3px solid #BCBBBB;
+}
+
+@media (min-width: 768px) {
+  .title-super {
+    text-align: right;
+    font-size: 60px
+  }
+  .title-sub {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .title-super {
+    text-align: right;
+    font-size: 60px;
+  }
+  .title-sub {
+    text-align: right;
+  }
 }
