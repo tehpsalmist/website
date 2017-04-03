@@ -1,3 +1,8 @@
+row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     color: #747704;
