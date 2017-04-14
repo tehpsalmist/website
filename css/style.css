@@ -22,6 +22,11 @@ body {
     text-align: center;
 }
 
+row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .title-sub {
   text-align: center;
 }
