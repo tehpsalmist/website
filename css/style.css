@@ -1,9 +1,40 @@
 * {
-    font-family: helvetica;
+    font-family: ;
 }
 
-.header {
+body {
     color: #fff900;
     background-color: #009fff;
-    height: 400px;
+}
+
+.row {
+	height: 100vh;
+}
+
+.coming-soon {
+    animation: blink 2s infinite alternate;
+    font-size: 5vw;
+}
+
+.tehpsalmist {
+	animation: grow 3s linear infinite alternate;
+	font-size: 1.5vw;
+}
+
+@keyframes blink {
+    from {
+    	color: #fff900;
+    }
+    to {
+    	color: #ffffff;
+    }
+}
+
+@keyframes grow {
+    from {
+    	font-size: 1.5vw;
+    }
+    to {
+    	font-size: 1.6vw;
+    }
 }
