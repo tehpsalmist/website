@@ -12,7 +12,7 @@ body {
 }
 
 .coming-soon {
-    animation: blink 2s infinite alternate;
+    animation: blink 5s infinite;
     font-size: 5vw;
 }
 
@@ -22,10 +22,16 @@ body {
 }
 
 @keyframes blink {
-    from {
+    0% {
+        color: #ffffff;
+    }
+    40% {
     	color: #fff900;
     }
-    to {
+    60% {
+        color: #fff900;
+    }
+    100% {
     	color: #ffffff;
     }
 }
