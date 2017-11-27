@@ -17,7 +17,7 @@ body {
 }
 
 .tehpsalmist {
-	animation: grow 3s linear infinite alternate;
+	animation: grow 1s linear infinite;
 	font-size: 1.5vw;
 }
 
@@ -31,10 +31,19 @@ body {
 }
 
 @keyframes grow {
-    from {
-    	font-size: 1.5vw;
+    40% {
+    	transform: scale(1,1);
     }
-    to {
-    	font-size: 1.6vw;
+    55% {
+    	transform: scale(1.02,1.02);
+    }
+    70% {
+        transform: scale(1,1);
+    }
+    85% {
+        transform: scale(1.02,1.02);
+    }
+    100% {
+        transform: scale(1,1);
     }
 }
