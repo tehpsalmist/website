@@ -1,0 +1,55 @@
+:root {
+    --textcolor: #087cc0;
+    --shadowcolor: #1c3069;
+}
+
+body {
+    color: var(--textcolor);
+}    
+
+.card-container {
+    perspective: 800px;
+} 
+
+.card {
+    transition: transform .5s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.card-side {
+    margin: 0;
+    display: block;
+    position: absolute;
+    backface-visibility: hidden;
+    box-shadow: 0 0 8px 3px var(--shadowcolor);
+}
+
+.front {
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    background-color: rgb(26, 179, 179);
+}
+
+.card-container:hover .card,
+.card-container:focus .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+#home-button {
+    position: fixed;
+    left: 8px;
+    bottom: 8px;
+    font-size: 1.5rem;
+    color: var(--textcolor);
+}
+
+#home-button:hover {
+    text-decoration: none;
+    color: #44c52a;
+}
