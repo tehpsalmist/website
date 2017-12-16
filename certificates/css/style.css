@@ -22,16 +22,13 @@ body {
     display: block;
     position: absolute;
     backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     box-shadow: 0 0 8px 3px var(--shadowcolor);
-}
-
-.front {
-    backface-visibility: hidden;
 }
 
 .back {
     transform: rotateY(180deg);
-    backface-visibility: hidden;
     background-color: rgb(26, 179, 179);
 }
 
