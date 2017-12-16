@@ -11,6 +11,8 @@ body {
 	height: 100vh;
 }
 
+
+
 .coming-soon {
     animation: blink 5s infinite;
     font-size: 5vw;
@@ -19,6 +21,19 @@ body {
 .tehpsalmist {
 	animation: grow 1s linear infinite;
 	font-size: 1.5vw;
+}
+
+#cert-button {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    font-size: 1.5rem;
+    color: #fff900;
+}
+
+#cert-button:hover {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 @keyframes blink {
