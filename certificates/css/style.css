@@ -29,7 +29,7 @@ body {
 
 .back {
     transform: rotateY(180deg);
-    background-color: rgb(26, 179, 179);
+    background-color: rgb(185, 241, 241);
 }
 
 .card-container:hover .card,
