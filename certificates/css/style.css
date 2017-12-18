@@ -1,10 +1,15 @@
 :root {
-    --textcolor: #087cc0;
+    --textcolor: white;
+    --bluecolor: #087cc0;
     --shadowcolor: #1c3069;
+    --greencolor: rgb(98, 216, 161);
+    --purplecolor: rgb(173, 136, 241);
 }
 
 body {
     color: var(--textcolor);
+    background: linear-gradient(to bottom right, var(--bluecolor), var(--purplecolor));
+    min-height: 100vh;
 }    
 
 .card-container {
@@ -15,6 +20,7 @@ body {
     transition: transform .5s;
     transform-style: preserve-3d;
     position: relative;
+    background-color: rgba(0, 0, 0, 0)
 }
 
 .card-side {
@@ -29,7 +35,13 @@ body {
 
 .back {
     transform: rotateY(180deg);
-    background-color: rgb(185, 241, 241);
+    background: linear-gradient(to bottom right, var(--bluecolor), var(--greencolor));
+    color: var(--textcolor);
+    display: flex;
+}
+
+.card-text-container {
+    margin: auto;
 }
 
 .card-container:hover .card,
@@ -49,5 +61,5 @@ body {
 
 #home-button:hover {
     text-decoration: none;
-    color: #44c52a;
+    color: var(--greencolor);
 }

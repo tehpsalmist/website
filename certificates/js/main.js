@@ -3,7 +3,7 @@ function flipperFixup() {
     $('.back').height($('img.card-side').height())
 }
 
-window.onload = flipperFixup
+window.addEventListener('load', flipperFixup)
 
 window.onresize = flipperFixup
 
