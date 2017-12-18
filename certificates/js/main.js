@@ -2,7 +2,9 @@ function flipperFixup() {
     $('.card-container').height($('img.card-side').height())
     $('.back').height($('img.card-side').height())
 }
-flipperFixup()
+
+window.onload = flipperFixup
+
 window.onresize = flipperFixup
 
 $('.back').on('keypress', function(e) {
