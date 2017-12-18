@@ -33,7 +33,8 @@ body {
 }
 
 .card-container:hover .card,
-.card-container:focus .card {
+.card-container:focus .card,
+.flipped {
     cursor: pointer;
     transform: rotateY(180deg);
 }
