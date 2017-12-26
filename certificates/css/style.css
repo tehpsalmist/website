@@ -4,11 +4,12 @@
     --shadowcolor: #1c3069;
     --greencolor: rgb(98, 216, 161);
     --purplecolor: rgb(173, 136, 241);
+    --yellowcolor: #faf88d;
 }
 
 body {
     color: var(--textcolor);
-    background: linear-gradient(to bottom right, var(--bluecolor), var(--purplecolor));
+    background: linear-gradient(to bottom right, var(--bluecolor), var(--yellowcolor));
     min-height: 100vh;
 }    
 
