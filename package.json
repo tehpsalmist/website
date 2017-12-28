@@ -1,0 +1,24 @@
+{
+  "name": "tehpsalmist.com",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehpsalmist/tehpsalmist.com.git"
+  },
+  "author": "Ben Steward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tehpsalmist/tehpsalmist.com/issues"
+  },
+  "homepage": "https://github.com/tehpsalmist/tehpsalmist.com#readme"
+}
