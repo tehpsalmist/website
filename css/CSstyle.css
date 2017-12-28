@@ -1,0 +1,74 @@
+body {
+    color: #fff900;
+    background: linear-gradient(to bottom right, #81e2ff, #009fff);
+}
+
+.row {
+	height: 100vh;
+}
+
+.coming-soon {
+    animation: blink 5s infinite;
+    font-size: 2.5rem;
+}
+
+.tehpsalmist {
+	animation: grow 1s linear infinite;
+	font-size: 1.33rem;
+}
+
+#cert-button {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    font-size: 1.5rem;
+    color: #fff900;
+}
+
+#cert-button:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@keyframes blink {
+    0% {
+        color: #ffffff;
+    }
+    40% {
+    	color: #fff900;
+    }
+    60% {
+        color: #fff900;
+    }
+    100% {
+    	color: #ffffff;
+    }
+}
+
+@keyframes grow {
+    40% {
+    	transform: scale(1,1);
+    }
+    55% {
+    	transform: scale(1.02,1.02);
+    }
+    70% {
+        transform: scale(1,1);
+    }
+    85% {
+        transform: scale(1.02,1.02);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .coming-soon {
+        font-size: 5vw;
+    }
+    
+    .tehpsalmist {
+        font-size: 2vw;
+    }
+}
