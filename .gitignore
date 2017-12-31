@@ -2,3 +2,6 @@ cloudflareScripts/
 playground/
 node_modules/
 gulpfile.js
+*.less
+*.scss
+HELP-US-OUT.txt
