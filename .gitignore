@@ -3,3 +3,4 @@ playground/
 node_modules/
 gulpfile.js
 homepage.*
+.DS_Store
