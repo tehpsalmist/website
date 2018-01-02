@@ -129,6 +129,7 @@ nav {
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .slide > img {
