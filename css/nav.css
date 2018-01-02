@@ -1,0 +1,117 @@
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+#hamburger {
+    display: block;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdown {
+    position: absolute;
+    border-radius: 0 8px 8px 8px;
+    z-index: 1;
+    background: linear-gradient(to bottom right, var(--dropdownGradientStart), var(--dropdownGradientEnd));
+    list-style: none;
+    padding: 4px;
+    margin: 0;
+    display: block;
+    visibility: hidden;
+    opacity:0;
+    transition: visibility 0s linear 0.25s, opacity 0.25s linear;
+}
+
+.dropdown-item {
+    font-size: 1.25rem;
+    line-height: 3rem;
+}
+
+/* setting background none on hover offsets a Bootstrap rule for this class name */
+.dropdown-item:hover {
+    background: none;
+}
+
+.menu:hover > .dropdown,
+.menu:focus > .dropdown {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+.tehpsalmist {
+    flex-grow: 1;
+    animation: grow 1s linear infinite;
+    text-align: center;
+}
+
+.tehpsalmist-text {
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 750px) {
+    #hamburger {
+        display: none;
+    }
+    .dropdown {
+        position: initial;
+        display: inline-flex;
+        background: none;
+        align-items: baseline;
+        visibility: visible;
+        opacity: 1;
+        padding: 4px;
+    }
+    .dropdown-item {
+        line-height: initial;
+        padding-right: 15px;
+    }
+    .menu:hover > .dropdown,
+    .menu:focus > .dropdown {
+        display: inline-flex;
+    }
+    .tehpsalmist {
+        flex-grow: unset;
+    }
+}
+
+/*
+
+    **** Animations ****
+
+*/
+
+@keyframes grow {
+    40% {
+    	transform: scale(1,1);
+    }
+    55% {
+    	transform: scale(1.02,1.02);
+    }
+    70% {
+        transform: scale(1,1);
+    }
+    85% {
+        transform: scale(1.02,1.02);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}

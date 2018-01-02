@@ -1,0 +1,134 @@
+{
+    "projects": [
+        {
+            "title": "Forward Conference Landing Page",
+            "order": 3,
+            "imgSrc": "images/forwardpage.png",
+            "imgAlt": "Forward Conference Landing Page Screenshot",
+            "projectURL": "http://forwardconference.cf",
+            "codeURL": "https://github.com/tehpsalmist/ForwardConference",
+            "description": "The headmaster at Faith Christian Academy approached me with the idea of having a conference to bring together the speakers from some of the various college/career preparation seminars we have had at our school this year. As I was working on putting the conference together, it seemed right to me that we should have a landing page to direct our potential guests. I decided to give my newly acquired skills some practice and built this site from scratch and hosted it on GitHub pages.",
+            "tech": [
+                "Bootstrap v3.3.7",
+                "Flexbox"
+            ]
+        },
+        {
+            "title": "New Baby Guessing Game",
+            "order": 1,
+            "imgSrc": "images/babyapp.png",
+            "imgAlt": "New Baby Guessing Game Screenshot",
+            "projectURL": "https://stewardbaby3.life",
+            "codeURL": "https://github.com/tehpsalmist/babystatsapp",
+            "description": "This is by far my favorite project. I was nervously awaiting the arrival of my third child, when the idea hit me: I should build a web app for my family and friends to post their guesses about the baby! I had just spent a lot of time in the KnockoutJS framework, so that was an obvious choice to get the app up and running quickly (it took me 5 days from start to launch). Even though the man-child has long-since arrived, feel free to try it out and leave your \"guess\"!",
+            "tech": [
+                "Bootstrap v4-beta",
+                "KnockoutJS",
+                "Google Firebase"
+            ]
+        },
+        {
+            "title": "No, No, Abi!",
+            "order": 2,
+            "imgSrc": "images/nonoabi.png",
+            "imgAlt": "No No Abi Screenshot",
+            "projectURL": "http://nonoabi.cf",
+            "codeURL": "https://github.com/tehpsalmist/no-no-abi",
+            "description": "<span>One of my favorite projects from the Udacity Nanodegree was building this Frogger-esque game using HTML5 Canvas and Object-Oriented Javascript. This project challenged me to think programmatically and helped me gain a more intuitive grasp of O.O. Programming in Javascript. <strong>Also, if you can put all Abi's toys away without touching a single Yucky Bug, send me a screenshot! It's way harder than it looks!</strong></span>",
+            "tech": [
+                "HTML5 Canvas",
+                "Object-Oriented JavaScript"
+            ]
+        },
+        {
+            "title": "Local Skate Spot Web App",
+            "order": 4,
+            "imgSrc": "images/skatemap.png",
+            "imgAlt": "Neighborhood Map Screenshot",
+            "projectURL": "https://tehpsalmist.github.io/NeighborhoodMap",
+            "codeURL": "https://github.com/tehpsalmist/NeighborhoodMap",
+            "description": "For me, diving into a new API is equal parts intimidation and enlightenment. This Udacity project took me down both of those paths many times over. Other than documenting some of our favorite skate spots, my primary goal in this project was to achieve the desired functionality while honoring separation of concerns as carefully as possible. The Google Maps API made this a challenging task, but KnockoutJS simplifies the MVVM concept to a very manageable system. In the future, I would like to try my hand at writing my own 2-way data binding framework. Also, skateboarding. More of that, too...",
+            "tech": [
+                "Google Maps API",
+                "Wunderground API",
+                "Foursquare API",
+                "KnockoutJS",
+                "Google Firebase",
+                "Object-Oriented JavaScript"
+            ]
+        },
+        {
+            "title": "Jasmine Test Suite for Feed Reader",
+            "order": 5,
+            "imgSrc": "images/testCode.png",
+            "imgAlt": "Jasmine Screenshot",
+            "projectURL": "https://tehpsalmist.github.io/Feed-Reader",
+            "codeURL": "https://github.com/tehpsalmist/Feed-Reader",
+            "description": "It has been said that one's code should read just like a newspaper. Whether or not you agree with that premise, Jasmine's declarative syntax certainly comes close to pulling it off. My biggest takeaway from this Udacity project is that sometimes writing an accurate test can be more difficult than writing the code to pass it. However, once that test is written, the code flows forth rather effortlessly, as the programmer has familiarized himself with all angles of the problem before even beginning to write.",
+            "tech": [
+                "Jasmine 2.2"
+            ]
+        },
+        {
+            "title": "High School Transcript Templates",
+            "order": 7,
+            "imgSrc": "images/transcript.png",
+            "imgAlt": "Transcript Screenshot",
+            "projectURL": "https://github.com/tehpsalmist/RenWebTranscript/blob/master/TranscriptExampleEdited.pdf",
+            "codeURL": "https://github.com/tehpsalmist/RenWebTranscript",
+            "description": "Part of my responsibilities at FCA involved sending student transcripts to other high schools and universities. Unfortunately, very few SIS's have an attractive default transcript template. Once I gained some solid footing in CSS, I jumped into this project with the hopes of improving our students' first impressions with college advisors. I used inline styles to structure a grid system and fine-tuned the variable loops to display uniformly within the template. I was super pleased with the final result!",
+            "tech": [
+                "CSS3",
+                "HTML5",
+                "RenWeb Customization Kit API"
+            ]
+        },
+        {
+            "title": "Report Card Templates",
+            "order": 6,
+            "imgSrc": "images/reportcard.png",
+            "imgAlt": "Report Card Screenshot",
+            "projectURL": "https://github.com/tehpsalmist/TemplateShowcase",
+            "codeURL": "https://github.com/tehpsalmist/TemplateShowcase",
+            "description": "This project turned out to be my gateway drug to programming. I had just ported the entire FCA Student Information System over to a new software platform, and I was excited to dig into the new functionality available. When I stumbled on the customization Kit, I was immediately inspired by the possibilities for our brand. I spent the next month meticulously combing through the API documentation and learning about radical concepts like loops and variables. The document itself was built using Microsoft Excel to establish the grid layout, which was then saved as HTML. I was fascinated by the whole process, but didn't realize the impact these small discoveries would have 3 years later.",
+            "tech": [
+                "HTML",
+                "RenWeb Customization Kit API",
+                "Microsoft Excel"
+            ]
+        },
+        {
+            "title": "tehpsalmist.com",
+            "order": 3,
+            "imgSrc": "images/project-insignia.png",
+            "imgAlt": "tehpsalmist.com Logo",
+            "projectURL": "https://tehpsalmist.com",
+            "codeURL": "https://github.com/tehpsalmist/tehpsalmist.com",
+            "description": "<span>I wanted to use this portfolio site as an opportunity to stretch my current skillset, so I eliminated all 3rd party libraries (yes, even jQuery! <span class=\"emoji\">😜</span>), and wrote most of the layout in CSS Grid (<span class=\"emoji\">💗</span>Love it!<span class=\"emoji\">💗</span>). My JavaScript is all ES6, and I wrote some Node.js programs to help my build process run smoothly (without overdoing it). Basically, this is my <em>2017 Thesis in Code</em>.</span>",
+            "tech": [
+                "CSS Grid",
+                "ES6 Javascript",
+                "Gulp",
+                "Browser-Sync",
+                "Flexbox",
+                "GitHub Pages",
+                "Cloudflare CDN"
+            ]
+        },
+        {
+            "title": "Performant Pizzas",
+            "order": 6,
+            "imgSrc": "images/pizzaperf.png",
+            "imgAlt": "Performant Pizza Page PNG",
+            "projectURL": "https://tehpsalmist.github.io/frontend-nanodegree-mobile-portfolio/views",
+            "codeURL": "https://github.com/tehpsalmist/frontend-mobile-nanodegree-portfolio",
+            "description": "The Udacity instructors must have had a good time making this project. Definitely some interesting humor. But, my focus was not on laughing, just making sure that the page loaded under the 100ms limit and the animations ran at a silky smooth 60 frames per second. I definitely learned a ton about CSS and proper animation techniques during this project.",
+            "tech": [
+                "CSS3 Transform",
+                "File Minification",
+                "Resize-image.net",
+                "Optimized Javascript functors"
+            ]
+        }
+    ]
+}

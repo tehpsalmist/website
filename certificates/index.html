@@ -7,15 +7,42 @@
     <title>Certificates</title>
     <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.2.1.slim.min.js"></script>
 </head>
 <body>
     <div class="container-fluid" tabindex="0">
+        <nav>
+            <div class="menu" tabindex="1">
+                <div id="hamburger">&#9776;</div>
+                <ul class="dropdown">
+                    <li class="dropdown-item">
+                        <a class="dropdown-item-link" tabindex="1" href="/">Home</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-item-link" tabindex="1" href="/projects">Projects</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-item-link" tabindex="1" href="/certificates">Certificates</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a class="dropdown-item-link" tabindex="1" href="/articles">Articles</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tehpsalmist">
+                <h3 class="tehpsalmist-text">
+                    tehpsalmist.com
+                </h3>
+            </div>
+        </nav>
         <div class="row my-5">
             <div class="col-12">
                 <h1 class="text-center">
-                    My Certificates
+                    Certificates
                 </h1>
             </div>
         </div>
@@ -55,8 +82,22 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <p class="created-by">
+                Created by<br>
+                Ben Steward
+            </p>
+            <img src="/images/insignia.png" alt="Insignia" class="logo">
+            <p class="copy">&copy; 2018</p>
+            <div class="social">
+                <a href="https://twitter.com/tehpsalmist" class="fa fa-2x fa-twitter"></a>
+                <a href="https://github.com/tehpsalmist" class="fa fa-2x fa-github"></a>
+                <a href="https://www.facebook.com/tehpsalmist" class="fa fa-2x fa-facebook"></a>
+                <a href="https://www.linkedin.com/bstewardcodes" class="fa fa-2x fa-linkedin"></a>
+                <a href="https://www.instagram.com/tehpsalmist/" class="fa fa-2x fa-instagram"></a>
+            </div>
+        </footer>
     </div>
-    <a id="home-button" href="../index.html"><- Home</a>
     <script src="js/main.js"></script>
 </body>
 </html>

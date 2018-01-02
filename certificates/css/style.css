@@ -5,13 +5,33 @@
     --greencolor: rgb(98, 216, 161);
     --purplecolor: rgb(173, 136, 241);
     --yellowcolor: #faf88d;
+    --dropdownGradientStart: #087cc0;
+    --dropdownGradientEnd: rgb(98, 216, 161);
 }
 
 body {
     color: var(--textcolor);
     background: linear-gradient(to bottom right, var(--bluecolor), var(--yellowcolor));
     min-height: 100vh;
-}    
+}
+
+nav {
+    padding: 5px;
+}
+
+a {
+    color: var(--textcolor);
+}
+
+a:hover {
+    color: var(--yellowcolor);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
 
 .card-container {
     perspective: 800px;

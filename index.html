@@ -1,29 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>tehpsalmist</title>
-        <link rel="icon" type="image/jpg" href="Images/Profilepic1.jpg">
-        <script defer src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/CSstyle.css">
-    </head>
-    <body>
-        <header class="container">
-            <div class="row align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="coming-soon">
-                        Coming Soon...
-                    </h1>
-                    <h4 class="tehpsalmist">
-                        tehpsalmist.com
-                    </h4>
-                </div>
-            </div>
-        </header>
-        <a id="cert-button" href="certificates/index.html">My Certificates -></a>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Steward</title>
+    <link rel="icon" type="image/jpg" href="Images/Profilepic1.jpg">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body tabindex="1">
+    <script>
+      document.body.classList.add('nohover')
+      const currentPage = 'home'
+    </script>
+    <div class="grid" tabindex="1">
+      <nav>
+        <div class="menu" tabindex="1">
+          <div id="hamburger">&#9776;</div>
+          <ul class="dropdown">
+            <li class="dropdown-item">
+              <a class="dropdown-item-link" tabindex="1" href="/">Home</a>
+            </li>
+            <li class="dropdown-item">
+              <a class="dropdown-item-link" tabindex="1" href="/projects">Projects</a>
+            </li>
+            <li class="dropdown-item">
+              <a class="dropdown-item-link" tabindex="1" href="/certificates">Certificates</a>
+            </li>
+            <li class="dropdown-item">
+              <a class="dropdown-item-link" tabindex="1" href="/articles">Articles</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tehpsalmist">
+          <h1 class="tehpsalmist-text">
+            tehpsalmist.com
+          </h1>
+        </div>
+      </nav>
+      <header class="home-header">
+        <div class="hero">
+          <h2>
+            Learn. Do. Repeat.
+          </h2>
+          <p>
+            Hi there! I'm Ben Steward, a web developer from Sellersville, PA and a recent graduate from <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank">Udacity's Front-End Web Developer Nanodegree</a>. Lately, I've been cutting my teeth on Node.js and CSS Grid (this site is my first project using Grid), and I recently joined the freelance team at <a href="https://cavalloagency.com" target="_blank">Cavallo Agency</a>. I'm passionate about building modern, user-friendly, mobile-responsive websites and applications, and I'm always up for learning and applying new technologies! If you enjoy any of the projects I've built these past few months, hit me up on any of my <a href="#social">social media</a> and let me know. <span class="emoji">👍🏼</span>
+          </p>
+        </div>
+        <div class="slider">
+          <div class="slider-shadow"></div>
+          <div class="slides">
+            <div style="background-image: url('/images/insignia.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/js.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/HTML5_Logo.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/CSS3_logo.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/node.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/cssgrid.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/jquery.gif'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/knockoutjs.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/gulp.svg'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/firebase_logo.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/bootstrap-stack.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/Html5_canvas_logo.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/cloudflare.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/GitHub.png'); background-size: contain;" class="slide"></div>
+            <div style="background-image: url('/images/jasmine.png'); background-size: contain;" class="slide"></div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <h2 class="main-title">
+          Featured Projects
+        </h2>
+      </main>
+      <footer>
+        <p class="created-by">
+          Created by<br>
+          Ben Steward
+        </p>
+        <img src="/images/insignia.png" alt="Insignia" class="logo">
+        <p class="copy">&copy; 2018</p>
+        <div id="social" class="social">
+          <a href="https://twitter.com/tehpsalmist" class="fa fa-2x fa-twitter"></a>
+          <a href="https://github.com/tehpsalmist" class="fa fa-2x fa-github"></a>
+          <a href="https://www.facebook.com/tehpsalmist" class="fa fa-2x fa-facebook"></a>
+          <a href="https://www.linkedin.com/bstewardcodes" class="fa fa-2x fa-linkedin"></a>
+          <a href="https://www.instagram.com/tehpsalmist/" class="fa fa-2x fa-instagram"></a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="/js/slider.js"></script>
+  </body>
 </html>
