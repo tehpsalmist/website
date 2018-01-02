@@ -33,6 +33,11 @@ h6 {
 
 a {
     text-decoration: none;
+    color: var(--blue);
+}
+
+nav a {
+    text-decoration: none;
     color: var(--textcolor);
 }
 
@@ -44,7 +49,7 @@ button {
 }
 
 a:hover {
-    color: var(--blue);
+    color: var(--mediumblue);
 }
 
 code {
