@@ -28,8 +28,8 @@ fetch('/data/projects.json')
                         ${project.description}
                     </p>
                     <div class="project-details">
-                        <button onclick="window.open('${project.projectURL}', '_blank')">Live Project</button>
-                        <button onclick="window.open('${project.codeURL}', '_blank')">Source Code</button>
+                        <button class="project-button" onclick="window.open('${project.projectURL}', '_blank')">Live Project</button>
+                        <button class="project-button" onclick="window.open('${project.codeURL}', '_blank')">Source Code</button>
                     </div>
                     <div class="project-details">
                         <div class="project-tech-list">

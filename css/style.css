@@ -209,6 +209,10 @@ nav {
     width: 90%;
 }
 
+.project-button {
+    padding: 10px;
+}
+
 .project-description {
     text-align: left;
     margin: 0;
