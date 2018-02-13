@@ -9,7 +9,7 @@ fetch('/data/projects.json')
         if (currentPage === 'projects') {
             projects = jason.projects
         } else if (currentPage === 'home') {
-            projects = jason.projects.filter(project => project.order <= 5)
+            projects = jason.projects.filter(project => project.order <= 4)
         }
 
         projects.map(project => {
