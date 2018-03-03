@@ -86,15 +86,15 @@ function setMainHeights() {
         let height = window.getComputedStyle(el).getPropertyValue('height')
         heights.push(height)
     })
-    
+
     let finalHeight = heights.reduce((one, theOther) => one > theOther ? one : theOther)
-    
+
     Array.from(mainItems).forEach(el => el.style.height = finalHeight)
-    
+
     document.body.classList.remove('nohover')
 }
 let viewportWidth = window.innerWidth
-window.onresize = function() {
+window.onresize = function () {
     if (viewportWidth !== window.innerWidth) {
         setMainHeights()
     }
