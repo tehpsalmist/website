@@ -84,12 +84,14 @@ function setMainHeights() {
 
     Array.from(projectItems).forEach(el => {
         let height = window.getComputedStyle(el).getPropertyValue('height')
-        heights.push(height)
+        heights.push(height.replace('px', ''))
     })
 
-    let finalHeight = heights.reduce((one, theOther) => one > theOther ? one : theOther)
+    let finalHeight = Math.max(...heights)
 
-    Array.from(mainItems).forEach(el => el.style.height = finalHeight)
+    Array.from(mainItems).forEach(el => {
+        el.style.height = `${finalHeight}px`
+    })
 
     document.body.classList.remove('nohover')
 }
