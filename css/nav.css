@@ -77,7 +77,7 @@ nav {
         align-items: baseline;
         visibility: visible;
         opacity: 1;
-        padding: 4px;
+        padding: 4px 0;
     }
     .dropdown-item {
         line-height: initial;

@@ -279,6 +279,11 @@ footer {
         grid-template: 1fr / 1fr 1fr 1fr;
         grid-gap: 40px;
     }
+    .home-header {
+        grid-template: auto / 750px auto 300px;
+        grid-template-areas:
+            "hero . slider"
+    }
 }
 
 /*
