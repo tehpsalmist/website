@@ -4,7 +4,7 @@
   "description": "Portfolio Website",
   "main": "gulpfile.js",
   "dependencies": {
-    "browser-sync": "^2.21.0",
+    "browser-sync": "^2.23.7",
     "gulp": "^3.9.1"
   },
   "devDependencies": {},
