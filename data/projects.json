@@ -42,7 +42,7 @@
         },
         {
             "title": "Local Skate Spot Web App",
-            "order": 4,
+            "order": 5,
             "imgSrc": "images/skatemap.png",
             "imgAlt": "Neighborhood Map Screenshot",
             "projectURL": "https://tehpsalmist.github.io/NeighborhoodMap",
@@ -135,9 +135,9 @@
             "order": 0,
             "imgSrc": "images/br365.png",
             "imgAlt": "Bible Reminder 365",
-            "projectURL": "https://biblereminder365.now.sh",
-            "codeURL": "https://biblereminder365.now.sh/_src",
-            "description": "New Year's Resolutions is how it all got started. I'm not a big fan of that sort of thing, but the spirit of the day got me thinking about a very important aspect of my Christian faith: Bible reading. Some reflection led me to think that email reminders would be a great way to become more consistent in my intake of the Word of God. NPM had the packages I needed to pull it off, and Zeit's &Delta;Now made deploying my Node application an absolute breeze. Express and MongoDB comprise the backend, and my future plans are to refactor the view in Angular (making it a MEAN stack application). Version 0-alpha2 is currently running, so sign up and hang on for the ride!",
+            "projectURL": "https://biblereminder365.com",
+            "codeURL": "https://github.com/tehpsalmist/BibleReminder365",
+            "description": "New Year's Resolutions is how it all got started. I'm not a big fan of that sort of thing, but the spirit of the day got me thinking about a very important aspect of my Christian faith: Bible reading. Some reflection led me to think that email reminders would be a great way to become more consistent in my intake of the Word of God. NPM had the packages I needed to pull it off, and Zeit's &Delta;Now made deploying my Node application an absolute breeze. Express and MongoDB comprise the backend, and my future plans are to refactor the view in Angular (making it a MEAN stack application). Version 1.1.7 is currently running (as of 6/3/18)",
             "tech": [
                 "MongoDB",
                 "ExpressJS",
@@ -145,6 +145,21 @@
                 "Zeit Now",
                 "SVG",
                 "Animate.css",
+                "ES6 Javascript"
+            ]
+        },
+        {
+            "title": "ng-tailwindcss",
+            "order": 0,
+            "imgSrc": "images/ng-tailwind.jpg",
+            "imgAlt": "My First NPM Package",
+            "projectURL": "https://www.npmjs.com/package/ng-tailwindcss",
+            "codeURL": "https://github.com/tehpsalmist/ng-tailwindcss",
+            "description": "<span>My first npm package! Yay!\nThis cli tool enables Angular developers to drop Tailwind CSS into their projects with just a few commands. The project came about because (as of 6.0.3) Angular does not grant access to the postCSS plugins that tailwind otherwise seemlessly integrates with, unless the developer ejects from angular cli (and loses the development speed the cli offers, which is the point of using tailwind in the first place--this is not an acceptable trade). I solved this by creating a chokidar watch script that works concurrently with ng serve to rebuild css files when changes are saved. You really should check it out! (<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=mUS0gclgO9Q\">Image Credit</a>)</span>",
+            "tech": [
+                "NodeJS",
+                "Chokidar",
+                "Commander.js",
                 "ES6 Javascript"
             ]
         }

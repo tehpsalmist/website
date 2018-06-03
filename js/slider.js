@@ -10,4 +10,4 @@ setInterval(() => {
   } else {
     count++
   }
-}, 3500)
+}, 2000)
