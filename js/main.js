@@ -1,4 +1,8 @@
 const main = document.querySelector('.main')
+const hireme = document.getElementById('hireme')
+
+hireme.innerHTML = '<a href="ma' + 'ilto:bstew' + 'ardcode' + 's@g' + 'mai' + 'l.c' + 'om?subj' +
+  'ect=' + 'Let\'s Work Together">hire me!</a>'
 
 window.fetch('/data/projects.json')
   .then(data => data.text())
@@ -76,9 +80,11 @@ window.fetch('/data/projects.json')
 const mainItems = main.getElementsByClassName('main-item')
 const projectItems = main.getElementsByClassName('project-container')
 
-function setMainHeights() {
+function setMainHeights () {
   viewportWidth = window.innerWidth
-  Array.from(mainItems).forEach(el => el.style.height = 'auto')
+  Array.from(mainItems).forEach(el => {
+    el.style.height = 'auto'
+  })
 
   let heights = []
 
