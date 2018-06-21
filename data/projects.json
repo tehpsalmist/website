@@ -5,7 +5,7 @@
             "order": 3,
             "imgSrc": "images/forwardpage.png",
             "imgAlt": "Forward Conference Landing Page Screenshot",
-            "projectURL": "http://forwardconference.cf",
+            "projectURL": "https://tehpsalmist.github.io/ForwardConference",
             "codeURL": "https://github.com/tehpsalmist/ForwardConference",
             "description": "The headmaster at Faith Christian Academy approached me with the idea of having a conference to bring together the speakers from some of the various college/career preparation seminars we have had at our school this year. As I was working on putting the conference together, it seemed right to me that we should have a landing page to direct our potential guests. I decided to give my newly acquired skills some practice and built this site from scratch and hosted it on GitHub pages.",
             "tech": [
@@ -32,7 +32,7 @@
             "order": 2,
             "imgSrc": "images/nonoabi.png",
             "imgAlt": "No No Abi Screenshot",
-            "projectURL": "http://nonoabi.cf",
+            "projectURL": "https://tehpsalmist.github.io/no-no-abi",
             "codeURL": "https://github.com/tehpsalmist/no-no-abi",
             "description": "<span>One of my favorite projects from the Udacity Nanodegree was building this Frogger-esque game using HTML5 Canvas and Object-Oriented Javascript. This project challenged me to think programmatically and helped me gain a more intuitive grasp of O.O. Programming in Javascript. <strong>Also, if you can put all Abi's toys away without touching a single Yucky Bug, send me a screenshot! It's way harder than it looks!</strong></span>",
             "tech": [
@@ -155,7 +155,7 @@
             "imgAlt": "My First NPM Package",
             "projectURL": "https://www.npmjs.com/package/ng-tailwindcss",
             "codeURL": "https://github.com/tehpsalmist/ng-tailwindcss",
-            "description": "<span>My first npm package! Yay!\nThis cli tool enables Angular developers to drop Tailwind CSS into their projects with just a few commands. The project came about because (as of 6.0.3) Angular does not grant access to the postCSS plugins that tailwind otherwise seemlessly integrates with, unless the developer ejects from angular cli (and loses the development speed the cli offers, which is the point of using tailwind in the first place--this is not an acceptable trade). I solved this by creating a chokidar watch script that works concurrently with ng serve to rebuild css files when changes are saved. You really should check it out! (<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=mUS0gclgO9Q\">Image Credit</a>)</span>",
+            "description": "<span>My first npm package! Yay!\nThis cli tool enables Angular developers to drop Tailwind CSS into their projects with just a few commands. The project came about because (as of 6.0.3) Angular does not grant access to the postCSS plugins that tailwind otherwise seemlessly integrates with, unless the developer ejects from angular cli (and loses the development speed the cli offers, which is the point of using tailwind in the first place--this is not an acceptable trade). I solved this by creating a chokidar watch script that works concurrently with ng serve to rebuild css files when changes are saved. Version 1.0.3 also added full Windows support! (<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=mUS0gclgO9Q\">Image Credit</a>)</span>",
             "tech": [
                 "NodeJS",
                 "Chokidar",
