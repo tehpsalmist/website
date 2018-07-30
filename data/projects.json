@@ -137,7 +137,7 @@
             "imgAlt": "Bible Reminder 365",
             "projectURL": "https://biblereminder365.com",
             "codeURL": "https://github.com/tehpsalmist/BibleReminder365",
-            "description": "New Year's Resolutions is how it all got started. I'm not a big fan of that sort of thing, but the spirit of the day got me thinking about a very important aspect of my Christian faith: Bible reading. Some reflection led me to think that email reminders would be a great way to become more consistent in my intake of the Word of God. NPM had the packages I needed to pull it off, and Zeit's &Delta;Now made deploying my Node application an absolute breeze. Express and MongoDB comprise the backend, and my future plans are to refactor the view in Angular (making it a MEAN stack application). Version 1.1.7 is currently running (as of 6/3/18)",
+            "description": "New Year's Resolutions is how it all got started. I'm not a big fan of that sort of thing, but the spirit of the day got me thinking about a very important aspect of my Christian faith: Bible reading. Some reflection led me to think that email reminders would be a great way to become more consistent in my intake of the Word of God. What began as a hobby project for myself has grown into a full web-app and email service (built on the MEAN stack and served up via Zeit's &Delta;Now). Users can sign up for various translations, number of chapters per day, time of day for the email delivery, and change things up as they go. Version 2.0.1 is currently running (as of 7/30/18). Tolle Lege!",
             "tech": [
                 "MongoDB",
                 "ExpressJS",
