@@ -133,7 +133,7 @@
         {
             "title": "Bible Reminder 365",
             "order": 0,
-            "imgSrc": "images/br365.png",
+            "imgSrc": "images/br365mobile.png",
             "imgAlt": "Bible Reminder 365",
             "projectURL": "https://biblereminder365.com",
             "codeURL": "https://github.com/tehpsalmist/BibleReminder365",
