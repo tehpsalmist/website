@@ -1,8 +1,10 @@
 const main = document.querySelector('.main')
-const hireme = document.getElementById('hireme')
+if (window.currentPage === 'home') {
+  const hireme = document.getElementById('hireme')
 
-hireme.innerHTML = '<a href="ma' + 'ilto:bstew' + 'ardcode' + 's@g' + 'mai' + 'l.c' + 'om?subj' +
-  'ect=' + 'Let\'s Work Together">hire me!</a>'
+  hireme.innerHTML = '<a href="ma' + 'ilto:bstew' + 'ardcode' + 's@g' + 'mai' + 'l.c' + 'om?subj' +
+    'ect=' + 'Let\'s Work Together">hire me!</a>'
+}
 
 window.fetch('/data/projects.json')
   .then(data => data.text())
