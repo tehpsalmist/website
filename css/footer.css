@@ -4,7 +4,8 @@ footer {
 	grid-template: auto auto / 1fr auto 1fr;
 	grid-template-areas:
 			"social social social"
-			"created logo copy";
+			"created logo copy"
+			"visitors visitors visitors";
 	grid-row-gap: 30px;
 	align-items: center;
 }
@@ -39,6 +40,11 @@ footer > p {
 	justify-content: space-around;
 }
 
+.visitors {
+	grid-area: visitors;
+	text-align: center;
+}
+
 .fa:hover {
 	opacity: 0.8;
 	text-decoration: none;
@@ -71,7 +77,8 @@ footer > p {
 			"social"
 			"created"
 			"copy"
-			"logo";
+			"logo"
+			"visitors";
 		justify-content: center;
 		justify-items: center;
 		grid-gap: 10px;

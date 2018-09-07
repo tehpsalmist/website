@@ -1,9 +1,9 @@
 const main = document.querySelector('.main')
 if (window.currentPage === 'home') {
-  const hireme = document.getElementById('hireme')
+  const reachout = document.getElementById('reachout')
 
-  hireme.innerHTML = '<a href="ma' + 'ilto:bstew' + 'ardcode' + 's@g' + 'mai' + 'l.c' + 'om?subj' +
-    'ect=' + 'Let\'s Work Together">hire me!</a>'
+  reachout.innerHTML = '<a href="ma' + 'ilto:bstew' + 'ardcode' + 's@g' + 'mai' + 'l.c' + 'om?subj' +
+    'ect=' + 'Let\'s Talk About ___">reach out directly.</a>'
 }
 
 window.fetch('/data/projects.json')
