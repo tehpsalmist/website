@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "start": "http-server ./ -p 3000"
+    "start": "http-server ./ -p 3700"
   },
   "repository": {
     "type": "git",
