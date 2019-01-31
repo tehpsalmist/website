@@ -81,6 +81,8 @@ nav {
 .project-header {
     grid-area: header;
     text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .home-header {
@@ -96,6 +98,10 @@ nav {
 
 .emoji {
     line-height: 1em;
+}
+
+.justify-text {
+    text-align: justify;
 }
 
 .hero {
