@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "Forward Conference Landing Page",
-            "order": 3,
+            "order": 4,
             "imgSrc": "images/forwardpage.png",
             "imgAlt": "Forward Conference Landing Page Screenshot",
             "projectURL": "https://tehpsalmist.github.io/ForwardConference",
