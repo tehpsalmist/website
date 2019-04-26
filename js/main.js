@@ -15,7 +15,7 @@ window.fetch('/data/projects.json')
     if (window.currentPage === 'projects') {
       projects = jason.projects
     } else if (window.currentPage === 'home') {
-      projects = jason.projects.filter(project => project.order <= 4)
+      projects = jason.projects.filter(project => project.order < 4)
     }
 
     projects.map(project => {
