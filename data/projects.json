@@ -175,9 +175,10 @@
             "description": "<span>My first desktop application, built with electron. This scoreboard application was built for the 2019 Vacation Bible School at <a href=\"https://www.lighthousebaptistpa.com\" target=\"blank\">Lighthouse Baptist Church</a>. Click one of these links to download it for Windows: <a target=\"_blank\" href=\"/packages/VBS Scoreboard-win32-x64.zip\">x64</a> or <a target=\"_blank\" href=\"/packages/VBS Scoreboard-win32-ia32.zip\">ia32</a>.</span>",
             "tech": [
                 "NodeJS",
-                "Chokidar",
-                "Commander.js",
-                "ES6 Javascript"
+                "Electron",
+                "React",
+                "Callbags",
+                "Event-driven programming"
             ]
         }
     ]
