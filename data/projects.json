@@ -170,7 +170,7 @@
             "order": 2,
             "imgSrc": "images/vbs-scoreboard.png",
             "imgAlt": "VBS Scoreboard",
-            "projectURL": "/packages/VBS Scoreboard-win32-x64.zip",
+            "projectURL": "https://github.com/tehpsalmist/vbs-score-tracker/releases/latest",
             "codeURL": "https://github.com/tehpsalmist/vbs-score-tracker",
             "description": "<span>My first desktop application, built with electron. This scoreboard application was built for the 2019 Vacation Bible School at <a href=\"https://www.lighthousebaptistpa.com\" target=\"blank\">Lighthouse Baptist Church</a>. Click 'Live Project' to download it for Windows.</span>",
             "tech": [
