@@ -29,7 +29,7 @@
         },
         {
             "title": "No, No, Abi!",
-            "order": 2,
+            "order": 4,
             "imgSrc": "images/nonoabi.png",
             "imgAlt": "No No Abi Screenshot",
             "projectURL": "https://tehpsalmist.github.io/no-no-abi",
@@ -178,6 +178,24 @@
                 "Electron",
                 "React",
                 "Callbags",
+                "Event-driven programming"
+            ]
+        },
+        {
+            "title": "Play The Mind",
+            "order": 0,
+            "imgSrc": "images/the-mind.png",
+            "imgAlt": "Play The Mind",
+            "projectURL": "https://play-the-mind.tehpsalmist.now.sh",
+            "codeURL": "https://github.com/tehpsalmist/play-the-mind",
+            "description": "This project was a ton of fun to work on and to play with the finished product. I was playing this card game with friends and family, and it just hit me one day that I could use this very asynchronous/concurrent game-play as a way to stretch the current limits of my programming skills and make something really fun to enjoy later. I used Hasura's GraphQL Engine to create the schema and handle event publishing, and I discovered Glitch, which made iterating on cloud functions a seamless process. The final project is running on Now (React Frontend), Heroku (GraphQL Engine/PostgreSQL DB), and Glitch (Webhooks). One fascinating piece of building this game was creating the game engine to rely on dependable, single-delivery events from Hasura. I initially set it up as a GraphQL subscription, listening to 'live' games, but that caused more trouble than it was worth. By listening to individual tables and specific database operations, I could guarantee that each event was unique and purposeful.",
+            "tech": [
+                "NodeJS",
+                "Hasura",
+                "GraphQL",
+                "PostgreSQL",
+                "React",
+                "Webhooks",
                 "Event-driven programming"
             ]
         }
