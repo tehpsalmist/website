@@ -5,8 +5,8 @@
             "order": 4,
             "imgSrc": "images/forwardpage.png",
             "imgAlt": "Forward Conference Landing Page Screenshot",
-            "projectURL": "https://tehpsalmist.github.io/ForwardConference",
-            "codeURL": "https://github.com/tehpsalmist/ForwardConference",
+            "projectURL": "https://tehpsalmist.github.io/FORWARDConference/",
+            "codeURL": "https://github.com/tehpsalmist/FORWARDConference",
             "description": "The headmaster at Faith Christian Academy approached me with the idea of having a conference to bring together the speakers from some of the various college/career preparation seminars we have had at our school this year. As I was working on putting the conference together, it seemed right to me that we should have a landing page to direct our potential guests. I decided to give my newly acquired skills some practice and built this site from scratch and hosted it on GitHub pages.",
             "tech": [
                 "Bootstrap v3.3.7",
