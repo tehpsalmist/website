@@ -2,11 +2,11 @@ const main = document.querySelector('.main')
 if (window.currentPage === 'home') {
   const reachout = document.getElementById('reachout')
 
-  reachout.innerHTML = '<a href="ma' + 'ilto:bstew' + 'ardcode' + 's@g' + 'mai' + 'l.c' + 'om?subj' +
+  if (reachout) reachout.innerHTML = '<a href="ma' + 'ilto:bstew' + 'ardcode' + 's@g' + 'mai' + 'l.c' + 'om?subj' +
     'ect=' + 'Let\'s Talk About ___">reach out directly.</a>'
 }
 
-window.fetch('/data/projects.json')
+window.fetch('data/projects.json')
   .then(data => data.text())
   .then(text => {
     let projects
@@ -28,7 +28,7 @@ window.fetch('/data/projects.json')
     ${project.title}
   </h2>
   <div class="project-img-container">
-    <img src="/${project.imgSrc}" alt="${project.imgAlt}" class="project-img">
+    <img src="${project.imgSrc}" alt="${project.imgAlt}" class="project-img">
   </div>
   <p class="project-details project-description">
     ${project.description}
