@@ -6,7 +6,9 @@ if (window.currentPage === 'home') {
     'ect=' + 'Let\'s Talk About ___">reach out directly.</a>'
 }
 
-window.fetch('data/projects.json')
+const subroute = location.pathname.split('/').filter(Boolean).length > 1
+
+window.fetch(subroute ? '../data/projects.json' : './data/projects.json')
   .then(data => data.text())
   .then(text => {
     let projects
@@ -28,7 +30,7 @@ window.fetch('data/projects.json')
     ${project.title}
   </h2>
   <div class="project-img-container">
-    <img src="${project.imgSrc}" alt="${project.imgAlt}" class="project-img">
+    <img src="${subroute ? '.' : ''}./${project.imgSrc}" alt="${project.imgAlt}" class="project-img">
   </div>
   <p class="project-details project-description">
     ${project.description}
